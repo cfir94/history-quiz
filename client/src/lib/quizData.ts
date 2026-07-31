@@ -221,6 +221,12 @@ export const QUESTIONS: Question[] = [
     { text: "ראשית ביות בעלי החיים והצמחים", correct: false },
     { text: "היעדר מוחלט של כל עדות לפולחן או אמנות", correct: false },
   ], category: "פליאולית" },
+  { id: 137, question: "איזה כלי אבן פרהיסטורי מוצג בתמונה?", answers: [
+    { text: "להב מגל מצור", correct: false },
+    { text: "אבן יד — הכלי האופייני לתרבות האשלית", correct: true },
+    { text: "כלי כתישה עגול", correct: false },
+    { text: "ראש חץ קטן ומחודד", correct: false },
+  ], category: "פליאולית", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/hand_axe.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
 
   // ===== אפיפליאולית והתרבות הנטופית =====
   { id: 29, question: "מהי מהותה של תקופת האפיפליאולית?", answers: [
@@ -283,6 +289,12 @@ export const QUESTIONS: Question[] = [
     { text: "שינויים גדולים במפלס הים בהתאם לתקופות קרח ותקופות בין-קרחוניות של הפלייסטוקן", correct: true },
     { text: "אין קשר בין התקופה הגיאולוגית לבין מפלס הים", correct: false },
   ], category: "אפיפליאולית והתרבות הנטופית" },
+  { id: 138, question: "איזה כלי צור מוצג בתמונה?", answers: [
+    { text: "להב מגל — שולב בקת עץ או עצם ושימש לקציר דגנים", correct: true },
+    { text: "אבן יד גדולה", correct: false },
+    { text: "גרזן אפסילון מברונזה", correct: false },
+    { text: "חוד חנית ארוך", correct: false },
+  ], category: "אפיפליאולית והתרבות הנטופית", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/flint_sickle.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
 
   // ===== ניאולית וכלקוליתי =====
   { id: 39, question: "לאיזה טווח תאריכים מתוארכת התקופה הניאוליתית באזורנו?", answers: [
@@ -363,6 +375,12 @@ export const QUESTIONS: Question[] = [
     { text: "אשלית, מוסטרית ואוריניאקית", correct: false },
     { text: "אמורית, כנענית ופלישתית", correct: false },
   ], category: "ניאולית וכלקוליתי" },
+  { id: 139, question: "איזה ממצא ארכיאולוגי מפורסם מוצג בתמונה?", answers: [
+    { text: "תכשיטי הפלישתים מעקרון", correct: false },
+    { text: "אוצר נחל משמר — אוסף חפצי נחושת כלקוליתיים שנמצא במערה במדבר יהודה", correct: true },
+    { text: "אוצר תל ערד", correct: false },
+    { text: "כלי בית ירח מהברונזה הקדומה", correct: false },
+  ], category: "ניאולית וכלקוליתי", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/nahal_mishmar_hoard.jpg`, fit: "cover", credit: "Wikimedia Commons" } },
 
   // ===== יסודות בארכיאולוגיה =====
   { id: 52, question: "מהי ארכיאולוגיה, ומה ההבדל בינה לבין היסטוריה?", answers: [
@@ -473,6 +491,12 @@ export const QUESTIONS: Question[] = [
     { text: "כשלא ניתן לחפור בשיטה הרגילה מלמעלה, למשל בשל מבנים או כביש קיימים מעל האתר — החפירה מתקדמת אופקית פנימה", correct: true },
     { text: "כשמעוניינים לחסוך בעלויות תיעוד ופרסום", correct: false },
   ], category: "יסודות בארכיאולוגיה" },
+  { id: 145, question: "איזה מכשיר עתיק, ששוחזר, מוצג בתמונה?", answers: [
+    { text: "מקווה טהרה", correct: false },
+    { text: "מפעל מים תת-קרקעי", correct: false },
+    { text: "בליסטרה — מכונת מצור למטול אבנים כבדות", correct: true },
+    { text: "מגדל מעיין כנעני", correct: false },
+  ], category: "יסודות בארכיאולוגיה", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/ballista.jpg`, fit: "cover", credit: "Wikimedia Commons" } },
 
   // ===== שיטות חפירה, טיפולוגיה ותיארוך =====
   { id: 70, question: "מהי טיפולוגיה בארכיאולוגיה?", answers: [
@@ -553,6 +577,12 @@ export const QUESTIONS: Question[] = [
     { text: "מפת תפוצת אתרי הדולמנים בגולן ובגליל", correct: false },
     { text: "המפה המדעית המפורטת הראשונה של ארץ ישראל, ששורטטה ב-1799 במהלך מסע נפוליאון", correct: true },
   ], category: "שיטות חפירה, טיפולוגיה ותיארוך" },
+  { id: 140, question: "איזו אבן מוצגת בתמונה, ומה חשיבותה?", answers: [
+    { text: "כתבי המארות — קללות על ערי כנען", correct: false },
+    { text: "אבן רוזטה — טקסט זהה בשלושה כתבים, אפשרה לפענח את כתב החרטומים המצרי", correct: true },
+    { text: "לוח חוקי חמורבי", correct: false },
+    { text: "אסטלת מרנפתח — מזכירה לראשונה את השם \"ישראל\"", correct: false },
+  ], category: "שיטות חפירה, טיפולוגיה ותיארוך", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/rosetta_stone.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
 
   // ===== חלוצי המחקר הארכיאולוגי =====
   { id: 83, question: "מיהו החוקר המכונה \"אבי הארכיאולוגיה המודרנית\", ומה עיקר תרומתו?", answers: [
@@ -727,6 +757,12 @@ export const QUESTIONS: Question[] = [
     { text: "בגולן ובגליל", correct: true },
     { text: "בהרי יהודה בלבד", correct: false },
   ], category: "ברונזה ביניימית" },
+  { id: 141, question: "איזה מבנה קבורה מוצג בתמונה?", answers: [
+    { text: "סרקופג אבן", correct: false },
+    { text: "דולמן — מבנה מגליתי מאבני עמידה ולוח אבן עליון, \"שולחן אבן\"", correct: true },
+    { text: "מאוזולאום מפואר", correct: false },
+    { text: "טומולוס (רוגם) — תלולית אבנים ועפר", correct: false },
+  ], category: "ברונזה ביניימית", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/dolmen.jpg`, fit: "cover", credit: "Wikimedia Commons" } },
 
   // ===== ברונזה תיכונה =====
   { id: 111, question: "לאיזה טווח תאריכים מתוארכת תקופת הברונזה התיכונה (MB2)?", answers: [
@@ -807,6 +843,12 @@ export const QUESTIONS: Question[] = [
     { text: "ביטול הצורך בכתב לחלוטין לטובת תקשורת בעל-פה", correct: false },
     { text: "יצירת כתב תמונות (פיקטוגרפי) מורכב יותר מהקודם", correct: false },
   ], category: "ברונזה תיכונה" },
+  { id: 142, question: "איזה סוג חפץ מצרי מוצג בתמונה?", answers: [
+    { text: "צלמית חרס מכתבי המארות", correct: false },
+    { text: "גרזן אפסילון מברונזה", correct: false },
+    { text: "ראש חץ מצור", correct: false },
+    { text: "חותם/קמע בצורת חיפושית סקרב", correct: true },
+  ], category: "ברונזה תיכונה", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/scarab.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
 
   // ===== ברונזה מאוחרת =====
   { id: 124, question: "לאיזה טווח תאריכים מתוארכת תקופת הברונזה המאוחרת (LB)?", answers: [
@@ -887,44 +929,6 @@ export const QUESTIONS: Question[] = [
     { text: "מקדש פלשתי שהוקדש לאל דגון", correct: false },
     { text: "מקדש ישראלי מוקדם שנחשף בשילה", correct: false },
   ], category: "ברונזה מאוחרת" },
-
-  // ===== שאלות חזותיות: ממצאים וחפצים =====
-  { id: 137, question: "איזה כלי אבן פרהיסטורי מוצג בתמונה?", answers: [
-    { text: "להב מגל מצור", correct: false },
-    { text: "אבן יד — הכלי האופייני לתרבות האשלית", correct: true },
-    { text: "כלי כתישה עגול", correct: false },
-    { text: "ראש חץ קטן ומחודד", correct: false },
-  ], category: "פליאולית", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/hand_axe.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
-  { id: 138, question: "איזה כלי צור מוצג בתמונה?", answers: [
-    { text: "להב מגל — שולב בקת עץ או עצם ושימש לקציר דגנים", correct: true },
-    { text: "אבן יד גדולה", correct: false },
-    { text: "גרזן אפסילון מברונזה", correct: false },
-    { text: "חוד חנית ארוך", correct: false },
-  ], category: "אפיפליאולית והתרבות הנטופית", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/flint_sickle.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
-  { id: 139, question: "איזה ממצא ארכיאולוגי מפורסם מוצג בתמונה?", answers: [
-    { text: "תכשיטי הפלישתים מעקרון", correct: false },
-    { text: "אוצר נחל משמר — אוסף חפצי נחושת כלקוליתיים שנמצא במערה במדבר יהודה", correct: true },
-    { text: "אוצר תל ערד", correct: false },
-    { text: "כלי בית ירח מהברונזה הקדומה", correct: false },
-  ], category: "ניאולית וכלקוליתי", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/nahal_mishmar_hoard.jpg`, fit: "cover", credit: "Wikimedia Commons" } },
-  { id: 140, question: "איזו אבן מוצגת בתמונה, ומה חשיבותה?", answers: [
-    { text: "כתבי המארות — קללות על ערי כנען", correct: false },
-    { text: "אבן רוזטה — טקסט זהה בשלושה כתבים, אפשרה לפענח את כתב החרטומים המצרי", correct: true },
-    { text: "לוח חוקי חמורבי", correct: false },
-    { text: "אסטלת מרנפתח — מזכירה לראשונה את השם \"ישראל\"", correct: false },
-  ], category: "שיטות חפירה, טיפולוגיה ותיארוך", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/rosetta_stone.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
-  { id: 141, question: "איזה מבנה קבורה מוצג בתמונה?", answers: [
-    { text: "סרקופג אבן", correct: false },
-    { text: "דולמן — מבנה מגליתי מאבני עמידה ולוח אבן עליון, \"שולחן אבן\"", correct: true },
-    { text: "מאוזולאום מפואר", correct: false },
-    { text: "טומולוס (רוגם) — תלולית אבנים ועפר", correct: false },
-  ], category: "ברונזה ביניימית", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/dolmen.jpg`, fit: "cover", credit: "Wikimedia Commons" } },
-  { id: 142, question: "איזה סוג חפץ מצרי מוצג בתמונה?", answers: [
-    { text: "צלמית חרס מכתבי המארות", correct: false },
-    { text: "גרזן אפסילון מברונזה", correct: false },
-    { text: "ראש חץ מצור", correct: false },
-    { text: "חותם/קמע בצורת חיפושית סקרב", correct: true },
-  ], category: "ברונזה תיכונה", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/scarab.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
   { id: 143, question: "באיזה כתב נכתבה הלוחית המוצגת בתמונה?", answers: [
     { text: "כתב פרוטו-סינאי (האלפבית הראשון)", correct: false },
     { text: "כתב דמוטי מצרי", correct: false },
@@ -937,10 +941,4 @@ export const QUESTIONS: Question[] = [
     { text: "כתבי המארות", correct: false },
     { text: "לוח חוקי חמורבי", correct: false },
   ], category: "ברונזה מאוחרת", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/merneptah_stele.jpg`, fit: "contain", credit: "Wikimedia Commons" } },
-  { id: 145, question: "איזה מכשיר עתיק, ששוחזר, מוצג בתמונה?", answers: [
-    { text: "מקווה טהרה", correct: false },
-    { text: "מפעל מים תת-קרקעי", correct: false },
-    { text: "בליסטרה — מכונת מצור למטול אבנים כבדות", correct: true },
-    { text: "מגדל מעיין כנעני", correct: false },
-  ], category: "יסודות בארכיאולוגיה", image: { type: "static", url: `${import.meta.env.BASE_URL}images/artifacts/ballista.jpg`, fit: "cover", credit: "Wikimedia Commons" } },
 ];
